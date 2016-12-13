@@ -29,13 +29,13 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity tri_state_buffer_arch1 is
+entity tri_state_buffer is
 	Port (E: in  std_logic;
 	      D: in  std_logic;
 			Y: out std_logic);
-end tri_state_buffer_arch1;
+end tri_state_buffer;
 
-architecture Behavioral of tri_state_buffer_arch1 is
+architecture Behavioral of tri_state_buffer is
 
 begin
 	process (E, D)

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-12-13T11:10:19</DateModified>
+  <DateModified>2016-12-13T11:18:04</DateModified>
   <ModuleName>tri_state_buf_8</ModuleName>
   <SummaryTimeStamp>2016-11-24T09:25:08</SummaryTimeStamp>
-  <SavedFilePath>E:/Google Drive/my-projects/ESOFT/Digital System Applications/2016/xilinx/beginners-guide-to-vhdl/iseconfig/tri_state_buf_8.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/Google Drive/my-projects/ESOFT/Digital System Applications/2016/xilinx/beginners-guide-to-vhdl\</ImplementationReportsDirectory>
+  <SavedFilePath>F:/git-duleekag/hobby/tutorials/vhdl/beginners-guide-to-vhdl/iseconfig/tri_state_buf_8.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>F:/git-duleekag/hobby/tutorials/vhdl/beginners-guide-to-vhdl\</ImplementationReportsDirectory>
   <DateInitialized>2016-11-24T09:24:37</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
