@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Google Drive/my-projects/ESOFT/Digital System Applications/2016/xilinx/beginners-guide-to-vhdl/comb_cct_1_tb_isim_beh.exe" -prj "E:/Google Drive/my-projects/ESOFT/Digital System Applications/2016/xilinx/beginners-guide-to-vhdl/comb_cct_1_tb_beh.prj" "work.comb_cct_1_tb" 
