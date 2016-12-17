@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
@@ -64,26 +64,26 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000122000000010000000100000000000000000000000064ffffffff000000810000000000000001000001220000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>sequence_detector_1101_tb - behavior (F:/git-duleekag/hobby/tutorials/vhdl/vhdl-programming-workshop-part3/sequence_detector_1101_tb.vhd)</SelectedItem>
+         <SelectedItem>binary_4_bit_up_counter_with_enable_and_count_terminate - Behavioral (F:/git-duleekag/hobby/tutorials/vhdl/vhdl-programming-workshop-part3/binary_4_bit_up_counter_with_enable_and_count_terminate.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000231000000020000000000000000000000000200000064ffffffff000000810000000300000002000002310000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000031a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000031a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>sequence_detector_1101_tb - behavior (F:/git-duleekag/hobby/tutorials/vhdl/vhdl-programming-workshop-part3/sequence_detector_1101_tb.vhd)</CurrentItem>
+      <CurrentItem>binary_4_bit_up_counter_with_enable_and_count_terminate - Behavioral (F:/git-duleekag/hobby/tutorials/vhdl/vhdl-programming-workshop-part3/binary_4_bit_up_counter_with_enable_and_count_terminate.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
