@@ -17,7 +17,7 @@ enum algorithm
 	des
 };
 
-union keys
+union key_data
 {
 	struct
 	{
@@ -33,7 +33,7 @@ union keys
 
 };
 
-int32_t calculate_mac(algorithm algo, keys * keys,
+int32_t calculate_mac(algorithm algo, key_data * keys,
 	uint8_t * payload,
 	uint16_t payload_length,
 	uint8_t * mac,

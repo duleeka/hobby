@@ -145,7 +145,7 @@ static void xorBlocks(uint8_t * block1,
 	}
 }
 
-static int32_t generate_sub_keys(algorithm algo, keys * keys, const uint8_t block_size, uint8_t * subkey1, uint8_t * subkey2)
+static int32_t generate_sub_keys(algorithm algo, key_data * keys, const uint8_t block_size, uint8_t * subkey1, uint8_t * subkey2)
 {
 	int32_t result;
 	if ((keys == nullptr) || (subkey1 == nullptr) || (subkey2 == nullptr)) {
@@ -432,7 +432,7 @@ int8_t verifyMAC(uint8_t * key1, uint8_t * key2, uint8_t * key3,
 
 #include <string>
 
-int32_t calculate_mac(algorithm algo, keys * keys,
+int32_t calculate_mac(algorithm algo, key_data * keys,
 	uint8_t * payload,
 	uint16_t payload_length,
 	uint8_t * mac,
@@ -532,6 +532,7 @@ int32_t calculate_mac(algorithm algo, keys * keys,
 		memset(last_payload_block.get(), 0, block_size);
 		memset(cipher_text.get(), 0, block_size);
 		memset(cipher_text_copy.get(), 0, block_size);
+		result = 0;
 	}
 #if 0
 	do
@@ -552,5 +553,5 @@ int32_t calculate_mac(algorithm algo, keys * keys,
 	} while (0);
 	return 0;
 #endif
-	return 0;
+	return result;
 }
