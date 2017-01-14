@@ -1,13 +1,13 @@
 NET "Clear" 				LOC = G12;
 NET "MCLK" 					LOC = B8;
 
-NET "SSD<0>" 				LOC = L14;
-NET "SSD<1>" 				LOC = H12;
-NET "SSD<2>" 				LOC = N14;
+NET "SSD<6>" 				LOC = L14;
+NET "SSD<5>" 				LOC = H12;
+NET "SSD<4>" 				LOC = N14;
 NET "SSD<3>" 				LOC = N11;
-NET "SSD<4>" 				LOC = P12;
-NET "SSD<5>" 				LOC = L13;
-NET "SSD<6>" 				LOC = M12;
+NET "SSD<2>" 				LOC = P12;
+NET "SSD<1>" 				LOC = L13;
+NET "SSD<0>" 				LOC = M12;
 
 NET "Digit_Select<0>" 	LOC = K14;
 NET "Digit_Select<1>" 	LOC = M13;
