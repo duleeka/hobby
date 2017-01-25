@@ -22,72 +22,9 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="vhdl-programming-workshop-part3.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux4to1_tb_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux4to1_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="mux4to1_tb_isim_beh.wdb"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="binary_4_bit_up_counter_with_enable_and_count_terminate_guide.ncd" xil_pn:origination="imported"/>
   </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1481961637" xil_pn:in_ck="-4131612917466974171" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1481961637">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="binary_4_bit_up_counter_with_enable_and_count_terminate_arch_behavioral.vhd"/>
-      <outfile xil_pn:name="binary_4_bit_up_counter_with_enable_and_count_terminate_tb.vhd"/>
-      <outfile xil_pn:name="mux2to1.vhd"/>
-      <outfile xil_pn:name="mux4to1.vhd"/>
-      <outfile xil_pn:name="mux4to1_tb.vhd"/>
-      <outfile xil_pn:name="sequence_detector_1101_arch_behavioral.vhd"/>
-      <outfile xil_pn:name="sequence_detector_1101_tb.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1481961637" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7083610576025342291" xil_pn:start_ts="1481961637">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1481961637" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3722689096964961775" xil_pn:start_ts="1481961637">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1481961637" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7430230715368554443" xil_pn:start_ts="1481961637">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1481961637" xil_pn:in_ck="-4131612917466974171" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1481961637">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="binary_4_bit_up_counter_with_enable_and_count_terminate_arch_behavioral.vhd"/>
-      <outfile xil_pn:name="binary_4_bit_up_counter_with_enable_and_count_terminate_tb.vhd"/>
-      <outfile xil_pn:name="mux2to1.vhd"/>
-      <outfile xil_pn:name="mux4to1.vhd"/>
-      <outfile xil_pn:name="mux4to1_tb.vhd"/>
-      <outfile xil_pn:name="sequence_detector_1101_arch_behavioral.vhd"/>
-      <outfile xil_pn:name="sequence_detector_1101_tb.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1481961640" xil_pn:in_ck="-4131612917466974171" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4047422804737304036" xil_pn:start_ts="1481961637">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="mux4to1_tb_beh.prj"/>
-      <outfile xil_pn:name="mux4to1_tb_isim_beh.exe"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
-    </transform>
-    <transform xil_pn:end_ts="1481961656" xil_pn:in_ck="-1514579880415469178" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3088295242604234758" xil_pn:start_ts="1481961656">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="mux4to1_tb_isim_beh.wdb"/>
-    </transform>
-  </transforms>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
 
 </generated_project>
